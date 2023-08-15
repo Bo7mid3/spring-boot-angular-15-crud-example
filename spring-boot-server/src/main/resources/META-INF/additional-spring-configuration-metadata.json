@@ -1,0 +1,9 @@
+{
+  "properties": [
+    {
+      "name": "external.service.ui",
+      "type": "java.lang.String",
+      "description": "A description for 'external.service.ui'"
+    }
+  ]
+}
