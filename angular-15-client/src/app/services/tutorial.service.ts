@@ -17,6 +17,7 @@ export class TutorialService {
   }
 
   get(id: any): Observable<Tutorial> {
+    //Getting a single tutorial from the server
     return this.http.get<Tutorial>(`${baseUrl}/${id}`);
   }
 
