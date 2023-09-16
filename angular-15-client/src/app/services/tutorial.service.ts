@@ -27,6 +27,7 @@ export class TutorialService {
   }
 
   update(id: any, data: any): Observable<any> {
+    //Updating a tutorial
     return this.http.put(`${baseUrl}/${id}`, data);
   }
 
