@@ -12,6 +12,7 @@ export class TutorialService {
   constructor(private http: HttpClient) {}
 
   getAll(): Observable<Tutorial[]> {
+    //Getting tutorials from the server
     return this.http.get<Tutorial[]>(baseUrl);
   }
 
