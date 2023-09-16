@@ -22,6 +22,7 @@ export class TutorialService {
   }
 
   create(data: any): Observable<any> {
+    //Creating a new tutorial
     return this.http.post(baseUrl, data);
   }
 
